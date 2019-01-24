@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>Hoja de Vida</title>
+  </head>
+  <body>
+    <header>
+      <svg width="150" height="150">
+        <g>
+          <polygon points="0,150 0,50 37.5,0 75,50 112.5,0 150,50 150,150" fill="#05B7FF" stroke="black" width-stroke="5"/>
+          <text fill="white" font-size="100" x="10" y="130">F</text>
+          <text fill="white" font-size="100" x="70" y="130">N</text>
+          <circle cx="75" cy="15" r="15" fill="yellow" stroke="black" width-stroke="1"/>
+        </g>
+      </svg>
+    </header>
+    <section>
+      <article>
+        <h1>Hoja de Vida</h1>
+        <h2>Frandy Núñez</h2>
+        <h3>11/04/1993 - Mao, Valverde, R.D.</h3>
+      </article>
+      <article>
+        <h2>Enlaces de Menu Basico</h2>
+        <a href="index.html">Inicio</a> | <a href="educacion.html">Educacion</a> | <a href="experiencia.html">Experiencia</a>
+      </article>
+      <article>
+        <h2>Educacion</h2>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Año</th>
+              <th>Institucion</th>
+              <th>Lugar</th>
+              <th>¿Culminó?)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2011</td>
+              <td>Matias Ramon Mella</td>
+              <td>Esperanza</td>
+              <td>Si</td>
+            </tr><tr>
+              <td>2012</td>
+              <td>Universidad Autonoma de Santo Domingo</td>
+              <td>Mao</td>
+              <td>No</td>
+            </tr>
+          </tbody>
+        </table>
+        <h2>Agregar Estudios</h2>
+        <form name="ag-estudios" autocomplete="on">
+          <p>
+          <label for="ano">Año:</label>
+          <select id="ano">
+            <option value="2019">2019</option>
+            <option value="2018">2018</option>
+            <option value="2017">2017</option>
+            <option value="2016">2016</option>
+            <option value="2015">2015</option>
+            <option value="2014">2014</option>
+            <option value="2013">2013</option>
+            <option value="2012">2012</option>
+            <option value="2011">2011</option>
+            <option value="2010">2010</option>
+          </select>
+          </p>
+          <p>
+          <label for="institucion">Institucion:</label>
+          <input type="text" id="institucion">
+          </p>
+          <p>
+          <label for="lugar">Lugar:</label>
+          <input type="text" id="lugar">
+          </p>
+          <button type="button">Enviar</button>
+          <br><br>
+        </form>
+      </article>
+    </section>
+    <footer>
+      Email: <a href="mailto:frandj06@gmail.com?subject=Paginas-Web">frandj06@gmail.com</a> | Telefono:<a href="tel:809-639-3125">809-639-3125</a>  | <a href="https://fb.com/frandj06" target="_blank">Facebook</a>
+    </footer>
+  </body>
+</html>
